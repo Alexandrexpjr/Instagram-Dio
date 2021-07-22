@@ -74,7 +74,7 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 7rem;
 }
 
 .instagram-login {
@@ -144,6 +144,14 @@ footer {
     font-size: 11px;
     color: rgb(142, 142, 142);
     margin: 0px 7px;    
+}
+
+.footer-links a:nth-child(1) {
+    margin-left: 0;
+}
+
+.footer-links a:last-child {
+    margin-right: 0;
 }
 
 .language-selector {
