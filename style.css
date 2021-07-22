@@ -23,6 +23,7 @@ body {
     justify-content: start;
     width: 60%;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 .instagram-phone {
@@ -126,6 +127,30 @@ body {
 
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: rgb(142, 142, 142);
+}
+
+.footer-links, .footer-aux {
+    width: 100%;
+}
+
+.footer-links a {
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+}
+
+.language-selector {
+    font-size: 12px;
+    color: rgb(142, 142, 142)
+}
+
+.copyright {
+    font-size: 12px;
 }
 
 /* media queries */
